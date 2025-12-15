@@ -49,10 +49,10 @@ pip install -r requirements.txt
 ```env
 database_hostname=localhost
 database_port=5432
-database_username=postgres
-database_password=your_db_password
-database_name=your_db_name
-secret_key=your_random_secret
+database_username={your_db_username_secret}
+database_password={your_db_password}
+database_name={your_db_name}
+secret_key={your_random_secret}
 algorithm=HS256
 access_token_expire_minutes=30
 ```
